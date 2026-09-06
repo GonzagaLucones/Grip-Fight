@@ -53,9 +53,6 @@ export const Facility = () => (
                 className="h-full w-full object-cover"
               />
             </div>
-            <figcaption className="mt-3 font-mono text-[10px] uppercase tracking-[0.25em] text-ink/50">
-              Estrutura - Grip Fight
-            </figcaption>
           </figure>
         </Reveal>
         <div className="grid gap-5">
