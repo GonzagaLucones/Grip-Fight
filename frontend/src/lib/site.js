@@ -14,6 +14,7 @@ const MESSAGES = {
   kids: "Olá! Gostaria de saber mais sobre as aulas de Jiu-Jitsu para crianças na Grip Fight.",
   modality: "Olá! Gostaria de ajuda para descobrir qual modalidade combina mais comigo na Grip Fight.",
   experimental: "Olá! Gostaria de agendar minha aula experimental na Grip Fight.",
+  team: "Olá! Gostaria conversar com a equipe da Grip Fight",
   doubt: "Olá! Ainda tenho algumas dúvidas sobre as aulas na Grip Fight. Poderiam me ajudar?",
 };
 

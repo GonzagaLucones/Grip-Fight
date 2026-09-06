@@ -12,9 +12,9 @@ const TESTIMONIALS = [
   },
   {
     id: "gabriel",
-    name: "Gabriel Cruz",
-    tag: "Aluno Grip Fight",
-    text: "Sou aluno desde o início, apenas feedbacks positivos e afirmo com tranquilidade: a melhor escola de Jiu Jitsu e Luta Livre da região. Metodologia ímpar, recomendo! Equipe qualificada e ambiente rico de parceria.",
+    name: "Gabriel Nogueira",
+    tag: "Pai de aluno — Turma Kids",
+    text: "Ótima localização e ambiente limpo e organizado! Meus filhos amam, ótima didática para as crianças!",
   },
   {
     id: "andrieli",

@@ -22,11 +22,6 @@ export const Team = () => (
             Quem está por trás de <span className="text-blood">cada treino.</span>
           </h2>
         </Reveal>
-        <Reveal delay={0.12}>
-          <p className="max-w-md text-base leading-relaxed text-ink/60 md:text-lg lg:ml-auto">
-            Experiência, dedicação e vivência no tatame.
-          </p>
-        </Reveal>
       </div>
 
       <div className="mt-16 space-y-20">
@@ -58,6 +53,7 @@ export const Team = () => (
                 César Pinheiro é formado em Educação Física e faixa-preta de Jiu-Jitsu desde 2009.
                 É formador, criador e coordenador da equipe Grip Fight, com ampla experiência na
                 educação de crianças e jovens e na preparação física de atletas de combate.
+                Sendo professor dos Adultos na Grip Fight.
               </p>
               <ul className="mt-8 grid gap-3 sm:grid-cols-2" data-testid="team-cesar-credentials">
                 {CESAR_CREDENTIALS.map((c) => (

@@ -49,7 +49,7 @@ export const HowItWorks = () => (
       <Reveal delay={0.15}>
         <div className="mt-12 flex justify-center">
           <a
-            href={waLink("experimental")}
+            href={waLink("team")}
             target="_blank"
             rel="noopener noreferrer"
             data-testid="how-it-works-cta"
