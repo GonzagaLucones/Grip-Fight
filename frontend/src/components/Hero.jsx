@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowDown, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { IMAGES, waLink } from "../lib/site";
 import { trackEvent } from "../lib/track";
 import { PhotoSlot } from "./PhotoSlot";
@@ -54,12 +54,13 @@ export const Hero = () => {
             data-testid="hero-headline"
             className="font-display text-[13.5vw] uppercase leading-[0.98] tracking-tight text-paper sm:text-[9vw] lg:text-[5.6vw]"
           >
-            <MaskedLine delay={0.25}>
-              Quer ficar <span className="text-blood">mais forte</span>,
+            <MaskedLine delay={0.25}>Não treine</MaskedLine>
+            <MaskedLine delay={0.35}>
+              para <span className="text-outline">lutar.</span>
             </MaskedLine>
-            <MaskedLine delay={0.37}>aprender a se defender</MaskedLine>
-            <MaskedLine delay={0.49}>
-              e desenvolver <span className="text-outline">disciplina?</span>
+            <MaskedLine delay={0.49}>Treine para estar</MaskedLine>
+            <MaskedLine delay={0.6}>
+              <span className="text-blood">preparado.</span>
             </MaskedLine>
           </h1>
 
@@ -70,7 +71,7 @@ export const Hero = () => {
             className="mt-6 max-w-xl text-base leading-relaxed text-steel md:text-lg"
             data-testid="hero-subheadline"
           >
-            Jiu-Jitsu e Luta Livre para crianças, adolescentes e adultos em São Leopoldo.
+            Jiu-Jitsu e defesa pessoal para desenvolver controle, técnica e confiança dentro e fora do tatame.
           </motion.p>
 
           <motion.div
@@ -135,23 +136,6 @@ export const Hero = () => {
           </p>
         </motion.div>
       </div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2, duration: 0.8 }}
-        className="relative z-10 mx-auto flex w-full max-w-[1400px] items-end justify-between px-5 pb-8 md:px-10"
-      >
-        <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-steel/80" data-testid="hero-tagline">
-          Não treine para lutar. Treine para estar preparado.
-        </p>
-        <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-steel/60">
-          <span className="hidden sm:inline">Role</span>
-          <motion.span animate={{ y: [0, 5, 0] }} transition={{ repeat: Infinity, duration: 1.8 }}>
-            <ArrowDown className="h-3.5 w-3.5" />
-          </motion.span>
-        </div>
-      </motion.div>
     </section>
   );
 };

@@ -3,10 +3,25 @@ import { IMAGES } from "../lib/site";
 import { ChapterTag, Reveal } from "./Reveal";
 import { PhotoSlot } from "./PhotoSlot";
 
-const SLOTS = [
-  { id: "aluno", label: "Depoimento de aluno(a)" },
-  { id: "pai", label: "Depoimento de pai/mãe" },
-  { id: "atleta", label: "Depoimento de atleta" },
+const TESTIMONIALS = [
+  {
+    id: "juliane",
+    name: "Juliane Sampaio",
+    tag: null,
+    text: "Excelente lugar, a recepção, horários flexíveis, ambiente climatizado, professores qualificados sempre se aprimorando e com foco em seus alunos — o que é muito importante. Super indico!",
+  },
+  {
+    id: "gabriel",
+    name: "Gabriel Nogueira",
+    tag: "Pai de alunos",
+    text: "Ótima localização e ambiente limpo e organizado! Meus filhos amam — ótima didática para as crianças!",
+  },
+  {
+    id: "andrieli",
+    name: "Andrieli Urnauer",
+    tag: "Mãe de aluno — Turma Kids",
+    text: "Meu filho de 5 anos treina na Grip Fight e só tenho elogios. Os professores são extremamente competentes, pacientes e dedicados — ensinam não apenas as técnicas do esporte, mas valores como disciplina, respeito, foco e autoconfiança. A evolução dele é nítida: mais seguro, mais concentrado e muito feliz. O ambiente é acolhedor e transmite confiança para nós, pais. Recomendo de olhos fechados!",
+  },
 ];
 
 export const SocialProof = () => (
@@ -28,34 +43,29 @@ export const SocialProof = () => (
         </Reveal>
       </div>
 
-      <div className="mt-14 grid gap-5 md:grid-cols-3" data-testid="testimonial-slots">
-        {SLOTS.map((s, i) => (
-          <Reveal key={s.id} delay={0.07 * i} className="h-full">
+      <div className="mt-14 grid gap-5 md:grid-cols-3" data-testid="testimonials-grid">
+        {TESTIMONIALS.map((t, i) => (
+          <Reveal key={t.id} delay={0.07 * i} className="h-full">
             <article
-              data-testid={`testimonial-slot-${s.id}`}
-              className="flex h-full flex-col border border-dashed border-line bg-coal/50 p-7"
+              data-testid={`testimonial-card-${t.id}`}
+              className="flex h-full flex-col border border-line bg-coal p-7 transition-colors duration-300 hover:border-blood/50"
             >
-              <Quote className="h-6 w-6 text-blood/60" />
-              <p className="mt-5 flex-1 font-mono text-[11px] uppercase leading-relaxed tracking-[0.2em] text-steel/70">
-                Espaço reservado para depoimento real
+              <Quote className="h-6 w-6 text-blood" />
+              <p className="mt-5 flex-1 text-sm leading-relaxed text-paper/85 md:text-base">
+                &ldquo;{t.text}&rdquo;
               </p>
               <div className="mt-8 border-t border-line pt-5">
-                <p className="text-sm font-semibold text-paper/70">{s.label}</p>
-                <p className="mt-1 font-mono text-[10px] uppercase tracking-[0.2em] text-steel/50">
-                  Nome • Modalidade • Foto
-                </p>
+                <p className="text-sm font-semibold text-paper">{t.name}</p>
+                {t.tag && (
+                  <p className="mt-1 font-mono text-[10px] uppercase tracking-[0.2em] text-steel/60">
+                    {t.tag}
+                  </p>
+                )}
               </div>
             </article>
           </Reveal>
         ))}
       </div>
-
-      <Reveal delay={0.1}>
-        <p className="mt-8 max-w-2xl text-sm leading-relaxed text-steel/80" data-testid="social-proof-note">
-          Estamos reunindo histórias reais de alunos e famílias. Em breve, elas ocupam este espaço —
-          enquanto isso, a prova está no tatame:
-        </p>
-      </Reveal>
 
       <div className="mt-10 grid gap-5 sm:grid-cols-3" data-testid="social-proof-strip">
         <Reveal className="h-full">

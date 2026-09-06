@@ -68,7 +68,7 @@ export const Faq = () => (
               onClick={() => trackEvent("whatsapp_click", { location: "faq" })}
               className="group mt-9 inline-flex items-center gap-3 border border-paper/25 px-7 py-4 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-paper transition-colors duration-200 hover:border-blood hover:bg-blood hover:text-white"
             >
-              Ainda tem dúvidas? Converse com a equipe
+              Converse com a equipe
               <span className="inline-block transition-transform duration-200 group-hover:translate-x-1.5">→</span>
             </a>
           </Reveal>

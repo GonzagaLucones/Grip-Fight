@@ -31,11 +31,10 @@ export const WhatsAppFloat = () => {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 24, scale: 0.9 }}
           transition={{ duration: 0.3, ease: "easeOut" }}
-          className="fixed bottom-5 right-5 z-50 flex items-center gap-3 bg-[#1FA855] py-3 pl-4 pr-3 font-mono text-[11px] font-bold uppercase tracking-[0.15em] text-white shadow-[0_8px_30px_rgba(0,0,0,0.45)] transition-colors duration-200 hover:bg-paper hover:text-ink sm:bottom-7 sm:right-7 sm:pr-5"
+          className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#1FA855] text-white shadow-[0_8px_30px_rgba(0,0,0,0.45)] transition-colors duration-200 hover:bg-paper hover:text-ink sm:bottom-7 sm:right-7"
           aria-label="Falar com a equipe da Grip Fight no WhatsApp"
         >
           <WhatsAppGlyph />
-          <span className="hidden sm:inline">Falar com a equipe</span>
         </motion.a>
       )}
     </AnimatePresence>

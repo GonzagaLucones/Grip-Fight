@@ -9,9 +9,6 @@ export const Footer = () => (
       <div className="grid gap-12 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <img src={IMAGES.logo} alt="Grip Fight Self Defense" className="h-16 w-auto" data-testid="footer-logo" />
-          <p className="mt-2 font-display text-lg uppercase tracking-wide text-paper">
-            Grip Fight Self Defense
-          </p>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-steel" data-testid="footer-description">
             Jiu-Jitsu e Luta Livre para crianças, adolescentes e adultos em São Leopoldo - RS.
           </p>

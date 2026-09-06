@@ -48,11 +48,6 @@ export const Authority = () => (
               ))}
             </ul>
           </Reveal>
-          <Reveal delay={0.22}>
-            <p className="mt-10 font-mono text-[11px] uppercase tracking-[0.3em] text-steel/70">
-              Existe uma história por trás desse tatame.
-            </p>
-          </Reveal>
         </div>
 
         <Reveal delay={0.1}>

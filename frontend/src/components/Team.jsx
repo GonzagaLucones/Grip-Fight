@@ -33,7 +33,7 @@ export const Team = () => (
         <div className="grid items-center gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16" data-testid="team-cesar">
           <Reveal>
             <figure className="frame-corners relative">
-              <div className="aspect-[4/5] overflow-hidden border border-ink/10">
+              <div className="aspect-[4/5] overflow-hidden rounded-2xl border border-ink/10">
                 <img
                   src={IMAGES.cesar}
                   alt="César Pinheiro, faixa-preta de Jiu-Jitsu e coordenador da Grip Fight"
