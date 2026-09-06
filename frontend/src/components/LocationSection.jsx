@@ -10,7 +10,7 @@ export const LocationSection = () => (
         <ChapterTag number="10" label="Localização" dark={false} testId="location-chapter" />
       </Reveal>
       <Reveal delay={0.05}>
-        <h2 className="mt-8 max-w-3xl font-display text-4xl uppercase leading-[1.1] sm:text-5xl lg:text-6xl" data-testid="location-title">
+        <h2 className="mt-8 max-w-3xl font-display text-4xl uppercase leading-[1.2] sm:text-5xl lg:text-6xl" data-testid="location-title">
           Seu próximo treino pode estar mais <span className="text-blood">perto</span> do que você imagina.
         </h2>
       </Reveal>
