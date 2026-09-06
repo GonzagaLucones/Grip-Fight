@@ -47,10 +47,10 @@ export const Modalities = () => (
             <div className="relative aspect-[16/9] overflow-hidden">
               <div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
                 <PhotoSlot
-                  src={IMAGES.treino}
+                  src={IMAGES.lutaLivreTurma}
                   alt="Turma de Luta Livre (no-gi) na Grip Fight em São Leopoldo"
                   label="Foto de treino de Luta Livre"
-                  filename="03-treino-grip-fight.jpg"
+                  filename="luta-livre-turma.jpg"
                   testId="modality-luta-livre-image"
                 />
               </div>

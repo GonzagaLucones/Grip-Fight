@@ -35,6 +35,8 @@ export const IMAGES = {
   kidsSelfie: "/images/kids-selfie.webp",
   medalhas: "/images/04-medalhas-grip-fight.jpg",
   tatame: "/images/08-tatame-grip-fight.webp",
+  poseKids: "/images/pose-treino-kids.webp",
+  lutaLivreTurma: "/images/luta-livre-turma.jpg",
   recepcao: "/images/02-academia-recepcao.jpg",
   cesar: "/images/06-cesar-pinheiro.jpg",
   william: "/images/07-william-chaves.webp",

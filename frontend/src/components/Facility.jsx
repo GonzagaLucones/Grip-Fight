@@ -54,7 +54,7 @@ export const Facility = () => (
               />
             </div>
             <figcaption className="mt-3 font-mono text-[10px] uppercase tracking-[0.25em] text-ink/50">
-              Recepção e estrutura — Grip Fight
+              Estrutura - Grip Fight
             </figcaption>
           </figure>
         </Reveal>
@@ -63,15 +63,15 @@ export const Facility = () => (
             <figure className="relative">
               <div className="aspect-[16/10] overflow-hidden border border-ink/10">
                 <PhotoSlot
-                  src={IMAGES.tatame}
-                  alt="Tatame amplo da academia Grip Fight"
-                  label="Foto do tatame — o espaço onde você vai treinar"
-                  filename="08-tatame-grip-fight.jpg"
+                  src={IMAGES.poseKids}
+                  alt="Crianças em pose de treino de Jiu-Jitsu Kids com o professor na Grip Fight"
+                  label="Foto do treino de Jiu-Jitsu Kids"
+                  filename="pose-treino-kids.webp"
                   testId="facility-tatame-image"
                 />
               </div>
               <figcaption className="mt-3 font-mono text-[10px] uppercase tracking-[0.25em] text-ink/50">
-                O tatame
+                Treino de Jiu Jitsu Kids
               </figcaption>
             </figure>
           </Reveal>
@@ -80,14 +80,14 @@ export const Facility = () => (
               <div className="aspect-[16/10] overflow-hidden border border-ink/10">
                 <PhotoSlot
                   src={IMAGES.treino}
-                  alt="Treino de Jiu-Jitsu em andamento na Grip Fight"
+                  alt="Treino de Luta Livre em andamento na Grip Fight"
                   label="Foto de treino — a experiência real no tatame"
                   filename="03-treino-grip-fight.jpg"
                   testId="facility-training-image"
                 />
               </div>
               <figcaption className="mt-3 font-mono text-[10px] uppercase tracking-[0.25em] text-ink/50">
-                Treino em andamento
+                Treino de Luta Livre
               </figcaption>
             </figure>
           </Reveal>
