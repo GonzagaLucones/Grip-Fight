@@ -143,7 +143,7 @@ export const Hero = () => {
         className="relative z-10 mx-auto flex w-full max-w-[1400px] items-end justify-between px-5 pb-8 md:px-10"
       >
         <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-steel/80" data-testid="hero-tagline">
-          Forje seu corpo. Fortaleça seu caráter.
+          Não treine para lutar. Treine para estar preparado.
         </p>
         <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-steel/60">
           <span className="hidden sm:inline">Role</span>

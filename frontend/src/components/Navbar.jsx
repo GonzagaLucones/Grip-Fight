@@ -43,9 +43,6 @@ export const Navbar = () => {
             className="flex items-center gap-3"
           >
             <img src={IMAGES.logo} alt="Grip Fight Self Defense" className="h-11 w-auto" />
-            <span className="hidden font-display text-sm uppercase tracking-wider text-paper sm:block">
-              Grip Fight
-            </span>
           </a>
 
           <nav className="hidden items-center gap-7 lg:flex" aria-label="Navegação principal">
