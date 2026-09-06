@@ -5,7 +5,7 @@ import { trackEvent } from "../lib/track";
 import { Reveal } from "./Reveal";
 
 const MaskedLine = ({ children, delay, inView }) => (
-  <span className="block overflow-hidden pb-[0.08em]">
+  <span className="-mt-[0.18em] block overflow-hidden pb-[0.08em] pt-[0.18em]">
     <motion.span
       className="block"
       initial={{ y: "110%" }}

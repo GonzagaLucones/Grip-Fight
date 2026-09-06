@@ -63,7 +63,7 @@ export const LocationSection = () => (
                   </div>
                 </div>
               </div>
-              <div className="mt-8 overflow-hidden border border-ink/10">
+              <div className="mt-8 overflow-hidden rounded-xl border border-ink/10">
                 <img
                   src={IMAGES.recepcao}
                   alt="Recepção da academia Grip Fight em São Leopoldo"
@@ -77,7 +77,7 @@ export const LocationSection = () => (
         </div>
 
         <Reveal delay={0.08} className="h-full">
-          <div className="frame-corners h-full min-h-[380px] border border-ink/10" data-testid="location-map">
+          <div className="h-full min-h-[380px] overflow-hidden rounded-2xl border border-ink/10" data-testid="location-map">
             <iframe
               title="Mapa — Grip Fight Self Defense, Av. Henrique Bier, 215, São Leopoldo"
               src="https://www.google.com/maps?q=Av.+Henrique+Bier,+215,+Campina,+S%C3%A3o+Leopoldo+-+RS,+93130-000&output=embed"

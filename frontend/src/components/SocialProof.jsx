@@ -12,9 +12,9 @@ const TESTIMONIALS = [
   },
   {
     id: "gabriel",
-    name: "Gabriel Nogueira",
-    tag: "Pai de alunos",
-    text: "Ótima localização e ambiente limpo e organizado! Meus filhos amam — ótima didática para as crianças!",
+    name: "Gabriel Cruz",
+    tag: "Aluno Grip Fight",
+    text: "Sou aluno desde o início, apenas feedbacks positivos e afirmo com tranquilidade: a melhor escola de Jiu Jitsu e Luta Livre da região. Metodologia ímpar, recomendo! Equipe qualificada e ambiente rico de parceria.",
   },
   {
     id: "andrieli",
@@ -69,7 +69,7 @@ export const SocialProof = () => (
 
       <div className="mt-10 grid gap-5 sm:grid-cols-3" data-testid="social-proof-strip">
         <Reveal className="h-full">
-          <div className="aspect-[4/3] overflow-hidden border border-line">
+          <div className="aspect-[4/3] overflow-hidden rounded-xl border border-line">
             <img
               src={IMAGES.medalhas}
               alt="Medalhas da equipe Grip Fight em competições"
@@ -80,7 +80,7 @@ export const SocialProof = () => (
           </div>
         </Reveal>
         <Reveal delay={0.07} className="h-full">
-          <div className="aspect-[4/3] overflow-hidden border border-line">
+          <div className="aspect-[4/3] overflow-hidden rounded-xl border border-line">
             <PhotoSlot
               src={IMAGES.treino}
               alt="Treino na Grip Fight"
@@ -91,7 +91,7 @@ export const SocialProof = () => (
           </div>
         </Reveal>
         <Reveal delay={0.14} className="h-full">
-          <div className="aspect-[4/3] overflow-hidden border border-line">
+          <div className="aspect-[4/3] overflow-hidden rounded-xl border border-line">
             <PhotoSlot
               src={IMAGES.kids}
               alt="Turma Kids da Grip Fight"

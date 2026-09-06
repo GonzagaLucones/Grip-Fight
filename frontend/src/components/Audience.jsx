@@ -66,7 +66,7 @@ export const Audience = () => (
               data-testid={c.testId}
               whileHover={{ y: -6 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
-              className="group flex h-full flex-col border border-ink/10 bg-bone"
+              className="group flex h-full flex-col overflow-hidden rounded-xl border border-ink/10 bg-bone"
             >
               {c.img ? (
                 <div className="relative aspect-[4/3] overflow-hidden">
@@ -82,13 +82,12 @@ export const Audience = () => (
                 </div>
               ) : (
                 <div className="mat-lines relative flex aspect-[4/3] items-end overflow-hidden bg-ink p-7">
-                  <span
+                  <img
+                    src={IMAGES.logo}
+                    alt=""
                     aria-hidden
-                    className="absolute -right-4 -top-8 font-display text-[11rem] leading-none text-transparent"
-                    style={{ WebkitTextStroke: "1.5px rgba(241,239,233,0.14)" }}
-                  >
-                    02
-                  </span>
+                    className="pointer-events-none absolute -right-8 -top-8 w-64 opacity-[0.14] grayscale"
+                  />
                   <p className="relative font-display text-2xl uppercase leading-tight text-paper">
                     Do seu jeito.
                     <br />

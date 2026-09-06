@@ -17,7 +17,7 @@ export const Modalities = () => (
 
       <div className="mt-14 grid gap-5 lg:grid-cols-2">
         <Reveal className="h-full">
-          <article className="group flex h-full flex-col border border-line bg-coal" data-testid="modality-jiujitsu">
+          <article className="group flex h-full flex-col overflow-hidden rounded-xl border border-line bg-coal" data-testid="modality-jiujitsu">
             <div className="relative aspect-[16/9] overflow-hidden">
               <div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
                 <PhotoSlot
@@ -43,7 +43,7 @@ export const Modalities = () => (
         </Reveal>
 
         <Reveal delay={0.08} className="h-full">
-          <article className="group flex h-full flex-col border border-line bg-coal" data-testid="modality-luta-livre">
+          <article className="group flex h-full flex-col overflow-hidden rounded-xl border border-line bg-coal" data-testid="modality-luta-livre">
             <div className="relative aspect-[16/9] overflow-hidden">
               <div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
                 <PhotoSlot

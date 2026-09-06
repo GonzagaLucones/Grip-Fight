@@ -51,8 +51,8 @@ export const Authority = () => (
         </div>
 
         <Reveal delay={0.1}>
-          <figure className="frame-corners relative">
-            <div className="relative aspect-[4/5] overflow-hidden border border-line sm:aspect-[5/5]">
+          <figure className="relative">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-line sm:aspect-[5/5]">
               <img
                 src={IMAGES.medalhas}
                 alt="Medalhas de competições de Jiu-Jitsu conquistadas pela equipe Grip Fight"

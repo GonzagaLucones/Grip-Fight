@@ -44,7 +44,7 @@ export const Facility = () => (
       <div className="mt-14 grid gap-5 lg:grid-cols-[1.4fr_1fr]" data-testid="facility-gallery">
         <Reveal className="h-full">
           <figure className="frame-corners relative h-full">
-            <div className="h-full min-h-[320px] overflow-hidden border border-ink/10 lg:min-h-[560px]">
+            <div className="h-full min-h-[320px] overflow-hidden rounded-2xl border border-ink/10 lg:min-h-[560px]">
               <img
                 src={IMAGES.recepcao}
                 alt="Recepção e área de treino da academia Grip Fight em São Leopoldo"
@@ -61,7 +61,7 @@ export const Facility = () => (
         <div className="grid gap-5">
           <Reveal delay={0.08}>
             <figure className="relative">
-              <div className="aspect-[16/10] overflow-hidden border border-ink/10">
+              <div className="aspect-[16/10] overflow-hidden rounded-xl border border-ink/10">
                 <PhotoSlot
                   src={IMAGES.poseKids}
                   alt="Crianças em pose de treino de Jiu-Jitsu Kids com o professor na Grip Fight"
@@ -77,7 +77,7 @@ export const Facility = () => (
           </Reveal>
           <Reveal delay={0.14}>
             <figure className="relative">
-              <div className="aspect-[16/10] overflow-hidden border border-ink/10">
+              <div className="aspect-[16/10] overflow-hidden rounded-xl border border-ink/10">
                 <PhotoSlot
                   src={IMAGES.treino}
                   alt="Treino de Luta Livre em andamento na Grip Fight"

@@ -7,7 +7,7 @@ import { PhotoSlot } from "./PhotoSlot";
 import { scrollToSection } from "./Navbar";
 
 const MaskedLine = ({ children, delay }) => (
-  <span className="block overflow-hidden pb-[0.08em]">
+  <span className="-mt-[0.18em] block overflow-hidden pb-[0.08em] pt-[0.18em]">
     <motion.span
       className="block"
       initial={{ y: "110%" }}
@@ -120,7 +120,7 @@ export const Hero = () => {
           transition={{ delay: 0.55, duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="relative hidden lg:block"
         >
-          <motion.div style={{ y: frameY }} className="frame-corners relative aspect-square overflow-hidden border border-line bg-coal">
+          <motion.div style={{ y: frameY }} className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-coal">
             <PhotoSlot
               src={IMAGES.treino}
               alt="Equipe Grip Fight reunida após treino em São Leopoldo"

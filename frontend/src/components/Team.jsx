@@ -32,7 +32,7 @@ export const Team = () => (
       <div className="mt-16 space-y-20">
         <div className="grid items-center gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16" data-testid="team-cesar">
           <Reveal>
-            <figure className="frame-corners relative">
+            <figure className="relative">
               <div className="aspect-[4/5] overflow-hidden rounded-2xl border border-ink/10">
                 <img
                   src={IMAGES.cesar}
@@ -73,8 +73,8 @@ export const Team = () => (
 
         <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16" data-testid="team-william">
           <Reveal delay={0.05} className="lg:order-2">
-            <figure className="frame-corners relative">
-              <div className="aspect-[4/5] overflow-hidden border border-ink/10">
+            <figure className="relative">
+              <div className="aspect-[4/5] overflow-hidden rounded-2xl border border-ink/10">
                 <img
                   src={IMAGES.william}
                   alt="William Chaves, fundador e coproprietário da Grip Fight, em competição"
