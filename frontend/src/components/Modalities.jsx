@@ -21,10 +21,10 @@ export const Modalities = () => (
             <div className="relative aspect-[16/9] overflow-hidden">
               <div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
                 <PhotoSlot
-                  src={IMAGES.treino}
-                  alt="Treino de Jiu-Jitsu na Grip Fight em São Leopoldo"
+                  src={IMAGES.kids}
+                  alt="Turma de Jiu-Jitsu de kimono na Grip Fight em São Leopoldo"
                   label="Foto de treino de Jiu-Jitsu"
-                  filename="03-treino-grip-fight.jpg"
+                  filename="grip-fight-kids.webp"
                   testId="modality-jiujitsu-image"
                 />
               </div>
@@ -44,16 +44,16 @@ export const Modalities = () => (
 
         <Reveal delay={0.08} className="h-full">
           <article className="group flex h-full flex-col border border-line bg-coal" data-testid="modality-luta-livre">
-            <div className="relative flex aspect-[16/9] items-center justify-center overflow-hidden bg-smoke mat-lines">
-              <PhotoSlot
-                src={IMAGES.lutaLivreLogo}
-                alt="Logo Grip Fight Luta Livre"
-                label="Logo oficial Grip Fight Luta Livre"
-                filename="logo-grip-fight-luta-livre.png"
-                testId="modality-luta-livre-image"
-                imgClassName="object-contain p-10"
-                className="!bg-transparent"
-              />
+            <div className="relative aspect-[16/9] overflow-hidden">
+              <div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
+                <PhotoSlot
+                  src={IMAGES.treino}
+                  alt="Turma de Luta Livre (no-gi) na Grip Fight em São Leopoldo"
+                  label="Foto de treino de Luta Livre"
+                  filename="03-treino-grip-fight.jpg"
+                  testId="modality-luta-livre-image"
+                />
+              </div>
               <span className="absolute left-4 top-4 bg-ink/80 px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.25em] text-paper backdrop-blur-sm">
                 Modalidade 02
               </span>

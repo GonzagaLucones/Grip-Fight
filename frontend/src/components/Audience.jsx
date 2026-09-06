@@ -13,10 +13,10 @@ const CARDS = [
     cta: "Conhecer o Kids",
     target: "#modalidades",
     event: "audience_kids_click",
-    img: IMAGES.kids,
-    imgAlt: "Crianças treinando Jiu-Jitsu infantil na Grip Fight em São Leopoldo",
+    img: IMAGES.kidsSelfie,
+    imgAlt: "Crianças sorrindo com o professor após aula de Jiu-Jitsu infantil na Grip Fight",
     imgLabel: "Foto da turma Kids — experiência das crianças no tatame",
-    imgFile: "grip-fight-kids.jpg",
+    imgFile: "kids-selfie.webp",
     testId: "audience-card-kids",
   },
   {

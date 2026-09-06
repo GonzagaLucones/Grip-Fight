@@ -31,13 +31,13 @@ export const waLink = (key = "general") =>
 export const IMAGES = {
   logo: "/images/logo-grip-fight.png",
   treino: "/images/03-treino-grip-fight.jpg",
-  kids: "/images/grip-fight-kids.jpg",
+  kids: "/images/grip-fight-kids.webp",
+  kidsSelfie: "/images/kids-selfie.webp",
   medalhas: "/images/04-medalhas-grip-fight.jpg",
-  tatame: "/images/08-tatame-grip-fight.jpg",
+  tatame: "/images/08-tatame-grip-fight.webp",
   recepcao: "/images/02-academia-recepcao.jpg",
   cesar: "/images/06-cesar-pinheiro.jpg",
   william: "/images/07-william-chaves.webp",
-  lutaLivreLogo: "/images/logo-grip-fight-luta-livre.png",
 };
 
 export const NAV_LINKS = [

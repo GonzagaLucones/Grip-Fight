@@ -120,10 +120,10 @@ export const Hero = () => {
           transition={{ delay: 0.55, duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="relative hidden lg:block"
         >
-          <motion.div style={{ y: frameY }} className="frame-corners relative aspect-[4/5] overflow-hidden border border-line bg-coal">
+          <motion.div style={{ y: frameY }} className="frame-corners relative aspect-square overflow-hidden border border-line bg-coal">
             <PhotoSlot
               src={IMAGES.treino}
-              alt="Alunos treinando Jiu-Jitsu no tatame da Grip Fight em São Leopoldo"
+              alt="Equipe Grip Fight reunida após treino em São Leopoldo"
               label="Foto de treino no tatame — imagem principal do hero"
               filename="03-treino-grip-fight.jpg"
               eager
